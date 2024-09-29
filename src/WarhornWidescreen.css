@@ -1,0 +1,7 @@
+body#events_schedule_monthly_show .container {
+    max-width: unset;
+    margin: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-sizing: border-box;
+}

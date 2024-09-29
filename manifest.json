@@ -1,7 +1,6 @@
 {
   "manifest_version": 3,
   "name": "Warhorn Widescreen",
-  "$schema": "https://json.schemastore.org/chrome-manifest.json",
   "version": "0.1.0",
   "description": "Makes the calendar pages on Warhorn.net use the full width of the page.",
   "icons": {
@@ -13,6 +12,7 @@
   "content_scripts": [
     {
       "js": ["src/WarhornWidescreen.js"],
+      "css": ["src/WarhornWidescreen.css"],
       "matches": [
         "https://warhorn.net/events/*"
       ]
